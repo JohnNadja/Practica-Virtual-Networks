@@ -42,6 +42,7 @@ Para realizar la práctica, se debe realizar los siguientes pasos:
         |Grupo de Recursos|Seleccionar el Grupo de Recursos previamente creado|
         |Nombre|Nombre de la red virtual. Ejemplo: ***RedVirtual1***|
         |Region|Region de la red virtual. Debe ser igual al Grupo de Recursos creado|
+        
         ![red-virtual1-datos](https://github.com/JohnNadja/Practica-Virtual-Networks/blob/main/images/red-virtual1-datos.gif)
 
     - ***Direcciones IP***. Aquí ya se cuenta con una subred (y se puede dejar su nombre y dirección), pero podemos crear una con la misma dirección borrando la subred que existe por default.
@@ -92,6 +93,7 @@ Para realizar la práctica, se debe realizar los siguientes pasos:
         |**Esta red virtual** ➡ Nombre del vínculo de emparejamiento | **RedVirtual1-a-RedVirtual2** (vínculo de *ida* de ésta red a la segunda red virtual)|
         |**Red virtual remota** ➡ Nombre del vínculo de emparejamiento | **RedVirtual2-a-RedVirtual1** (vínculo de *vuelta* de la segunda red a ésta red virtual)|
         |**Red Virtual** (es la red virtual destino)| **RedVirtual2**|
+        
         ![emparejamiento-redes](https://github.com/JohnNadja/Practica-Virtual-Networks/blob/main/images/emparejamiento-redes.gif)
     - Se da clic en el botón **Agregar** y se espera a que se actualice.
     ![emparejamiento-actualizado](https://github.com/JohnNadja/Practica-Virtual-Networks/blob/main/images/emparejamiento-actualizado.gif)    
@@ -113,7 +115,7 @@ Para realizar la práctica, se debe realizar los siguientes pasos:
         |Parámetros|Descripcion|
         |----------|------------|
         |Red Virtual|Seleccionar la **RedVirtual1**|            
-        |Subed|Seleccionar la *Subred1* para esta primera Máquina Virtual|
+        |Subred|Seleccionar la *Subred1* para esta primera Máquina Virtual|
     ![maquina-virtual1-datos](https://github.com/JohnNadja/Practica-Virtual-Networks/blob/main/images/maquina-virtual1-datos.gif)
     - Esperamos a la Revisión y creación de la Máquina Virtual.
 
@@ -134,7 +136,8 @@ Para realizar la práctica, se debe realizar los siguientes pasos:
         |Parámetros|Descripcion|
         |----------|------------|
         |Red Virtual|Seleccionar la **RedVirtual2**|            
-        |Subed|Seleccionar la *Subred2* para esta primera Máquina Virtual|
+        |Subred|Seleccionar la *Subred2* para esta primera Máquina Virtual|
+        
         ![maquina-virtual2-datos](https://github.com/JohnNadja/Practica-Virtual-Networks/blob/main/images/maquina-virtual2-datos.gif)
 
 7. Una vez creadas las dos Máquinas Virtuales, se procede conectarse a la Máquina Virtual 1 obteniendo la siguiente información:
