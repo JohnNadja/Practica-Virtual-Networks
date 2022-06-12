@@ -86,7 +86,7 @@ Para realizar la práctica, se debe realizar los siguientes pasos:
 
 4. Como siguiente instrucción, se buscará el recurso (no su grupo de recursos) de la **Primera Red Virtual** creada (RedVirtual1). Se puede hayar desde el panel de inicio del Portal de Azure.
 ![buscar-red1](https://github.com/JohnNadja/Practica-Virtual-Networks/blob/main/images/buscar-red1.gif)
-    - En esta interfaz, en el panel derecho buscamos la opción de **Emparejamiento**.
+    - En esta interfaz, en el panel izquierdo buscamos la opción de **Emparejamiento**.
     - Se agrega un nuevo emparejamiento con la **RedVirtual2** ya que se usará para conectar dos máquinas virtuales con las dos diferentes redes virtuales. Nos importarán únicamente los siguientes elementos de la configuración.
         |Campo|Valor|
         |-----|-----|
